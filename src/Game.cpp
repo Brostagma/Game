@@ -7,9 +7,10 @@ Game::Game() {
 
 void Game::loop() {
     Menu menu;
+    menu.welcomeGame();
 
     while (Core::isRun()) {
-        menu.welcomeGame();
-        break; // :&&
+        menu.mainRegion();
+        // break; // :&&
     }
 }

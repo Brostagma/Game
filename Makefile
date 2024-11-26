@@ -13,7 +13,7 @@ SRCS := $(wildcard $(SRC_DIR)/*.cpp) main.cpp
 OBJS := $(patsubst %.cpp, $(BUILD_DIR)/%.o, $(notdir $(SRCS)))
 
 # Çıktı dosyasının adı
-TARGET = $(DEBUG_DIR)/console_game
+TARGET = $(DEBUG_DIR)/brostagma_game
 
 # Varsayılan Hedef
 all: dirs $(TARGET) info
